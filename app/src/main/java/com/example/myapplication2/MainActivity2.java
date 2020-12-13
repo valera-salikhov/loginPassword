@@ -20,9 +20,9 @@ public class MainActivity2 extends AppCompatActivity {
         ed_new_password = findViewById(R.id.CreatePassword);
         create = findViewById(R.id.button2);
         create.setOnClickListener(v -> {
-            Intent i = new Intent(MainActivity2.this, MainActivity.class);
-            i.putExtra("new_login", ed_new_login.toString());
-            i.putExtra("new_password", ed_new_password.toString());
+            Intent i = new Intent();
+            i.putExtra("new_login", ed_new_login.getText().toString());
+            i.putExtra("new_password", ed_new_password.getText().toString());
             setResult(1, i);
             finish();
         });
