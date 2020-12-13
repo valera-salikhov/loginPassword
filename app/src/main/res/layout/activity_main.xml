@@ -62,9 +62,10 @@
         android:id="@+id/success"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="636dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="156dp"
         android:text="@string/nothing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
